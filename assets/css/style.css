@@ -1368,6 +1368,7 @@ hr {
 	position: relative;
 	display: inline-block;
 	width: auto;
+	display: none;
 }
 
 .swiper-pagination.swiper-pagination-bullets:before {
@@ -5301,6 +5302,13 @@ a.wp-block-button__link {
 }
 
 @media screen and (max-width: 767px) {
+	.swiper-wrapper{
+		display: flex;
+		flex-direction: column;
+	}
+	#resume-section{
+		padding: 0 25px;
+	}
 	.lui-section {
 		padding-bottom: 120px;
 	}
